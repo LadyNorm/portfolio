@@ -1,0 +1,10 @@
+/home/vagrant/.rbenv/versions/2.0.0-p481/bin/ruby -r ./siteconf20150211-4616-8w1zm9.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+installing default libraries
