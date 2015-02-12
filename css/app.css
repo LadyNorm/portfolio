@@ -121,7 +121,7 @@ footer a:hover {
   box-sizing: border-box;
 }
 
-:before, :after {
+.sky:before, .sky:after, .earth:before, .earth:after, .sun:before, .sun:after, .hills:before, .hills:after, .house:before, .house:after, .tower:before, .tower:after, .tree:before, .tree.after, .tree div:before, .tree div:after, .house div:nth-child(1):before, .house div:nth-child(1):after, .house div:nth-child(2):before, .house div:nth-child(2):after  {
   content: '';
   display: block;
   position: relative;
