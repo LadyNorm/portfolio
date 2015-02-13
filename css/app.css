@@ -164,6 +164,7 @@ body {
 
 .earth {
   flex: 1;
+  z-index: 10;
   position: relative;
   background: #0e1d1f;
   top: 0;
@@ -217,7 +218,7 @@ body {
   width: 500px;
   height: 500px;
   border-radius: 25%;
-  background: #304730;
+  background: linear-gradient(#304730, #4f754f);
   transform: rotate(45deg);
 }
 
@@ -237,7 +238,7 @@ body {
   width: 500px;
   height: 500px;
   border-radius: 25%;
-  background: #365136;
+  background: linear-gradient(#365136, #557f55);
   transform: rotate(45deg);
 }
 
@@ -256,7 +257,7 @@ body {
   width: 800px;
   height: 800px;
   border-radius: 25%;
-  background: #406040;
+  background: linear-gradient(#406040, #5f8e5f);
   transform: rotate(45deg);
 }
 
@@ -463,10 +464,26 @@ body {
 
 .sun {
  -webkit-animation-name: fromTop;
- -webkit-animation-duration: 3s;
- -webkit-animation-iteration-count: 10;         
+ -webkit-animation-duration: 4s;
+ -webkit-animation-iteration-count: 20;         
  -webkit-animation-direction: normal;   /*   normal, alternate  */
- -webkit-animation-timing-function: ease-out, linear;   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
+ -webkit-animation-timing-function: ease-out, ease-in, linear;   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
  -webkit-animation-fill-mode: forwards;   /* forwards, backwards, both, none  */
  /*-webkit-animation-delay: 3s;*/
 }
+
+@-webkit-keyframes fromBottom {
+    0%   { top: 10%; }
+    100% { top: 0%; }
+}
+
+.tree {
+ -webkit-animation-name: fromBottom;
+ -webkit-animation-duration: .5s;
+ -webkit-animation-iteration-count: 1;         
+ -webkit-animation-direction: normal;   /*   normal, alternate  */
+ -webkit-animation-timing-function: ease-in, linear;   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
+ -webkit-animation-fill-mode: forwards;   /* forwards, backwards, both, none  */
+ /*-webkit-animation-delay: 3s;*/
+}
+
