@@ -370,6 +370,36 @@ body {
 
 .house div:nth-child(1) {
   position: relative;
+  top: 261px;
+  float: left;
+  display: block;
+  width: 200px;
+  height: 105px;
+  margin: 0 30px 0 25px;
+  border-radius: 5px 5px 0 0;
+  background: #295658;
+}
+
+.house div:nth-child(1):before {
+  top: 20px;
+  left: 20px;
+  width: 5px;
+  height: 5px;
+  background: #ffc;
+  box-shadow: 65px 75px 0 6px #ffc, 85px 75px 0 6px #ffc, 160px 40px 0 0 #ffc, 140px 40px 0 0 rgba(0, 0, 0, 0.2), 120px 40px 0 0 rgba(0, 0, 0, 0.2), 100px 40px 0 0 #ffc, 80px 40px 0 0 #ffc, 60px 40px 0 0 rgba(0, 0, 0, 0.2), 40px 40px 0 0 rgba(0, 0, 0, 0.2), 20px 40px 0 0 #ffc, 0 40px 0 0 #ffc, 160px 20px 0 0 rgba(0, 0, 0, 0.2), 140px 20px 0 0 #ffc, 120px 20px 0 0 rgba(0, 0, 0, 0.2), 100px 20px 0 0 #ffc, 80px 20px 0 0 rgba(0, 0, 0, 0.2), 60px 20px 0 0 #ffc, 40px 20px 0 0 rgba(0, 0, 0, 0.2), 20px 20px 0 0 rgba(0, 0, 0, 0.2), 0 20px 0 0 #ffc, 160px 0 0 0 #ffc, 140px 0 0 0 rgba(0, 0, 0, 0.2), 120px 0 0 0 #ffc, 100px 0 0 0 rgba(0, 0, 0, 0.2), 80px 0 0 0 #ffc, 60px 0 0 0 #ffc, 40px 0 0 0 rgba(0, 0, 0, 0.2), 20px 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.house div:nth-child(1):after {
+  top: -8px;
+  left: 30px;
+  width: 80px;
+  height: 20px;
+  border-radius: 50% 50% 0 0;
+  background: #295658;
+}
+
+.house div:nth-child(2) {
+  position: relative;
   float: left;
   display: block;
   width: 125px;
@@ -379,17 +409,17 @@ body {
   background: #234749;
 }
 
-.house div:nth-child(1):before {
+.house div:nth-child(2):before {
   top: 20px;
   left: 20px;
   width: 5px;
   height: 5px;
   background: rgba(0, 0, 0, 0.2);
-  animation: .5s light infinite alternate;
-  box-shadow: 50px 220px 0 6px #ffffe0, 30px 220px 0 6px #ffffe0, 80px 180px 0 0 #ffffe0, 60px 180px 0 0 rgba(0, 0, 0, 0.2), 40px 180px 0 0 #ffffe0, 20px 180px 0 0 rgba(0, 0, 0, 0.2), 0 180px 0 0 rgba(0, 0, 0, 0.2), 80px 160px 0 0 rgba(0, 0, 0, 0.2), 60px 160px 0 0 rgba(0, 0, 0, 0.2), 40px 160px 0 0 rgba(0, 0, 0, 0.2), 20px 160px 0 0 rgba(0, 0, 0, 0.2), 0 160px 0 0 #ffffe0, 80px 140px 0 0 rgba(0, 0, 0, 0.2), 60px 140px 0 0 rgba(0, 0, 0, 0.2), 40px 140px 0 0 #ffffe0, 20px 140px 0 0 rgba(0, 0, 0, 0.2), 0 140px 0 0 #ffffe0, 80px 120px 0 0 #ffffe0, 60px 120px 0 0 #ffffe0, 40px 120px 0 0 rgba(0, 0, 0, 0.2), 20px 120px 0 0 #ffffe0, 0 120px 0 0 rgba(0, 0, 0, 0.2), 80px 100px 0 0 rgba(0, 0, 0, 0.2), 60px 100px 0 0 #ffffe0, 40px 100px 0 0 rgba(0, 0, 0, 0.2), 20px 100px 0 0 #ffffe0, 0 100px 0 0 rgba(0, 0, 0, 0.2), 80px 80px 0 0 #ffffe0, 60px 80px 0 0 #ffffe0, 40px 80px 0 0 rgba(0, 0, 0, 0.2), 20px 80px 0 0 rgba(0, 0, 0, 0.2), 0 80px 0 0 rgba(0, 0, 0, 0.2), 80px 60px 0 0 rgba(0, 0, 0, 0.2), 60px 60px 0 0 rgba(0, 0, 0, 0.2), 40px 60px 0 0 rgba(0, 0, 0, 0.2), 20px 60px 0 0 #ffffe0, 0 60px 0 0 #ffffe0, 80px 40px 0 0 rgba(0, 0, 0, 0.2), 60px 40px 0 0 rgba(0, 0, 0, 0.2), 40px 40px 0 0 rgba(0, 0, 0, 0.2), 20px 40px 0 0 rgba(0, 0, 0, 0.2), 0 40px 0 0 #ffffe0, 80px 20px 0 0 #ffffe0, 60px 20px 0 0 rgba(0, 0, 0, 0.2), 40px 20px 0 0 rgba(0, 0, 0, 0.2), 20px 20px 0 0 #ffffe0, 0 20px 0 0 #ffffe0, 80px 0 0 0 rgba(0, 0, 0, 0.2), 60px 0 0 0 #ffffe0, 40px 0 0 0 #ffffe0, 20px 0 0 0 rgba(0, 0, 0, 0.2);
+/*  animation: .5s light infinite alternate;
+*/  box-shadow: 50px 220px 0 6px #ffffe0, 30px 220px 0 6px #ffffe0, 80px 180px 0 0 #ffffe0, 60px 180px 0 0 rgba(0, 0, 0, 0.2), 40px 180px 0 0 #ffffe0, 20px 180px 0 0 rgba(0, 0, 0, 0.2), 0 180px 0 0 rgba(0, 0, 0, 0.2), 80px 160px 0 0 rgba(0, 0, 0, 0.2), 60px 160px 0 0 rgba(0, 0, 0, 0.2), 40px 160px 0 0 rgba(0, 0, 0, 0.2), 20px 160px 0 0 rgba(0, 0, 0, 0.2), 0 160px 0 0 #ffffe0, 80px 140px 0 0 rgba(0, 0, 0, 0.2), 60px 140px 0 0 rgba(0, 0, 0, 0.2), 40px 140px 0 0 #ffffe0, 20px 140px 0 0 rgba(0, 0, 0, 0.2), 0 140px 0 0 #ffffe0, 80px 120px 0 0 #ffffe0, 60px 120px 0 0 #ffffe0, 40px 120px 0 0 rgba(0, 0, 0, 0.2), 20px 120px 0 0 #ffffe0, 0 120px 0 0 rgba(0, 0, 0, 0.2), 80px 100px 0 0 rgba(0, 0, 0, 0.2), 60px 100px 0 0 #ffffe0, 40px 100px 0 0 rgba(0, 0, 0, 0.2), 20px 100px 0 0 #ffffe0, 0 100px 0 0 rgba(0, 0, 0, 0.2), 80px 80px 0 0 #ffffe0, 60px 80px 0 0 #ffffe0, 40px 80px 0 0 rgba(0, 0, 0, 0.2), 20px 80px 0 0 rgba(0, 0, 0, 0.2), 0 80px 0 0 rgba(0, 0, 0, 0.2), 80px 60px 0 0 rgba(0, 0, 0, 0.2), 60px 60px 0 0 rgba(0, 0, 0, 0.2), 40px 60px 0 0 rgba(0, 0, 0, 0.2), 20px 60px 0 0 #ffffe0, 0 60px 0 0 #ffffe0, 80px 40px 0 0 rgba(0, 0, 0, 0.2), 60px 40px 0 0 rgba(0, 0, 0, 0.2), 40px 40px 0 0 rgba(0, 0, 0, 0.2), 20px 40px 0 0 rgba(0, 0, 0, 0.2), 0 40px 0 0 #ffffe0, 80px 20px 0 0 #ffffe0, 60px 20px 0 0 rgba(0, 0, 0, 0.2), 40px 20px 0 0 rgba(0, 0, 0, 0.2), 20px 20px 0 0 #ffffe0, 0 20px 0 0 #ffffe0, 80px 0 0 0 rgba(0, 0, 0, 0.2), 60px 0 0 0 #ffffe0, 40px 0 0 0 #ffffe0, 20px 0 0 0 rgba(0, 0, 0, 0.2);
 }
 
-.house div:nth-child(1):after {
+.house div:nth-child(2):after {
   z-index: 1;
   top: -40px;
   left: 80px;
@@ -400,20 +430,23 @@ body {
   box-shadow: 20px 20px 0 0 #234749;
 }
 
-.house div:nth-child(2) {
+.house div:nth-child(3) {
   position: relative;
-  top: 85px;
+  top: 200px;
   float: left;
   display: block;
   width: 145px;
   height: 165px;
   margin: 0 50px 0 25px;
-  margin-top: 115px;
+  /*margin-top: 115px;*/
   border-radius: 5px 5px 0 0;
   background: #1b373a;
 }
 
-.house div:nth-child(2):before {
+.house div:nth-child(3):before {
+  content: '';
+  display: block;
+  position: relative;
   top: 20px;
   left: 20px;
   width: 5px;
@@ -422,7 +455,10 @@ body {
   box-shadow: 60px 135px 0 6px #ffffe0, 40px 135px 0 6px #ffffe0, 100px 100px 0 0 rgba(0, 0, 0, 0.2), 80px 100px 0 0 rgba(0, 0, 0, 0.2), 60px 100px 0 0 rgba(0, 0, 0, 0.2), 40px 100px 0 0 rgba(0, 0, 0, 0.2), 20px 100px 0 0 rgba(0, 0, 0, 0.2), 0 100px 0 0 #ffffe0, 100px 80px 0 0 #ffffe0, 80px 80px 0 0 rgba(0, 0, 0, 0.2), 60px 80px 0 0 #ffffe0, 40px 80px 0 0 rgba(0, 0, 0, 0.2), 20px 80px 0 0 rgba(0, 0, 0, 0.2), 0 80px 0 0 rgba(0, 0, 0, 0.2), 100px 60px 0 0 rgba(0, 0, 0, 0.2), 80px 60px 0 0 #ffffe0, 60px 60px 0 0 rgba(0, 0, 0, 0.2), 40px 60px 0 0 rgba(0, 0, 0, 0.2), 20px 60px 0 0 #ffffe0, 0 60px 0 0 rgba(0, 0, 0, 0.2), 100px 40px 0 0 #ffffe0, 80px 40px 0 0 #ffffe0, 60px 40px 0 0 rgba(0, 0, 0, 0.2), 40px 40px 0 0 rgba(0, 0, 0, 0.2), 20px 40px 0 0 #ffffe0, 0 40px 0 0 #ffffe0, 100px 20px 0 0 #ffffe0, 80px 20px 0 0 rgba(0, 0, 0, 0.2), 60px 20px 0 0 #ffffe0, 40px 20px 0 0 rgba(0, 0, 0, 0.2), 20px 20px 0 0 rgba(0, 0, 0, 0.2), 0 20px 0 0 #ffffe0, 100px 0 0 0 rgba(0, 0, 0, 0.2), 80px 0 0 0 #ffffe0, 60px 0 0 0 #ffffe0, 40px 0 0 0 rgba(0, 0, 0, 0.2), 20px 0 0 0 rgba(0, 0, 0, 0.2);
 }
 
-.house div:nth-child(2):after {
+.house div:nth-child(3):after {
+  content: '';
+  display: block;
+  position: relative;
   top: -8px;
   left: 30px;
   width: 80px;
@@ -465,7 +501,7 @@ body {
 .sun {
  -webkit-animation-name: fromTop;
  -webkit-animation-duration: 4s;
- -webkit-animation-iteration-count: 20;         
+ -webkit-animation-iteration-count: infinite;         
  -webkit-animation-direction: normal;   /*   normal, alternate  */
  -webkit-animation-timing-function: ease-out, ease-in, linear;   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
  -webkit-animation-fill-mode: forwards;   /* forwards, backwards, both, none  */
