@@ -248,6 +248,7 @@ body {
 
 .hills div:nth-child(6) {
   left: 0;
+  z-index: 1;
 }
 
 .hills div:nth-child(1) {
@@ -307,6 +308,7 @@ body {
   position: absolute;
   left: 50%;
   bottom: 0;
+  z-index: 1;
 }
 
 .tree div {
@@ -622,6 +624,20 @@ body {
   transform:rotateZ(45deg);
 }
 
+.woodsMan {
+  z-index: 0;
+  content: '';
+  position: absolute;
+  left: 75%;
+  top: 328px;
+  background: #6c2807;
+  display: block;
+  height: 5px;
+  margin: 5px 0 0 10px;
+  width: 5px;
+  box-shadow: 1.25px 0 0 0 #6c2807, 2.5px 0 0 0 #6c2807, 3.75px 0 0 0 #6c2807, 0 5px 0 0 #6c2807, 1.25px 1.25px 0 0 #ffe8dc, 2.5px 1.25px 0 0 #ffe8dc, 3.75px 1.25px 0 0 #6c2807, 0px 2.5px 0 0 black, 1.25px 2.5px 0 0 #ffe8dc, 2.5px 2.5px 0 0 #ffe8dc, 3.75px 2.5px 0 0 black, 0px 3.75px 0 0 black, 1.25px 3.75px 0 0 black, 2.5px 3.75px 0 0 black, 3.75px 3.75px 0 0 black, -2.5px 5px 0 0 #b21015, -1.25px 5px 0 0 #b21015, 0px 5px 0 0 black, 1.25px 5px 0 0 black, 2.5px 5px 0 0 black, 3.75px 5px 0 0 black, 5px 5px 0 0 #b21015, 6.25px 5px 0 0 #b21015, -2.5px 6.25px 0 0 #b21015, -1.25px 6.25px 0 0 #b21015, 0px 6.25px 0 0 #b21015, 1.25px 6.25px 0 0 #b21015, 2.5px 6.25px 0 0 #b21015, 3.75px 6.25px 0 0 #b21015, 5px 6.25px 0 0 #b21015, 6.25px 6.25px 0 0 #b21015, -2.5px 7.5px 0 0 #ffe8dc, -1.25px 7.5px 0 0 #ffe8dc, 0px 7.5px 0 0 #b21015, 1.25px 7.5px 0 0 #b21015, 2.5px 7.5px 0 0 #b21015, 3.75px 7.5px 0 0 #b21015, 5px 7.5px 0 0 #ffe8dc, 6.25px 7.5px 0 0 #ffe8dc, 6.25px 7.5px 0 0 #b21015, -2.5px 8.75px 0 0 #ffe8dc, -1.25px 8.75px 0 0 #ffe8dc, 0px 8.75px 0 0 #b21015, 1.25px 8.75px 0 0 #b21015, 2.5px 8.75px 0 0 #b21015, 3.75px 8.75px 0 0 #b21015, 5px 8.75px 0 0 #ffe8dc, 6.25px 8.75px 0 0 #ffe8dc, 6.25px 8.75px 0 0 #b21015, -2.5px 10px 0 0 #ffe8dc, -1.25px 10px 0 0 #ffe8dc, 0px 10px 0 0 #b21015, 1.25px 10px 0 0 #b21015, 2.5px 10px 0 0 #b21015, 3.75px 10px 0 0 #b21015, 5px 10px 0 0 #ffe8dc, 6.25px 10px 0 0 #ffe8dc, -2.5px 11.25px 0 0 #ffe8dc, -1.25px 11.25px 0 0 #ffe8dc, 0px 11.25px 0 0 #b21015, 1.25px 11.25px 0 0 #b21015, 2.5px 11.25px 0 0 #b21015, 3.75px 11.25px 0 0 #b21015, 5px 11.25px 0 0 #ffe8dc, 6.25px 11.25px 0 0 #ffe8dc, -2.5px 12.5px 0 0 #ffe8dc, -1.25px 12.5px 0 0 #ffe8dc, 0px 12.5px 0 0 #b21015, 1.25px 12.5px 0 0 #b21015, 2.5px 12.5px 0 0 #b21015, 3.75px 12.5px 0 0 #b21015, 5px 12.5px 0 0 #ffe8dc, 6.25px 12.5px 0 0 #ffe8dc, -1.25px 13.75px 0 0 #3c5866, 0px 13.75px 0 0 #3c5866, 1.25px 13.75px 0 0 #3c5866, 2.5px 13.75px 0 0 #3c5866, 3.75px 13.75px 0 0 #3c5866, 5px 13.75px 0 0 #3c5866, -1.25px 15px 0 0 #3c5866, 0px 15px 0 0 #3c5866, 1.25px 15px 0 0 #3c5866, 2.5px 15px 0 0 #3c5866, 3.75px 15px 0 0 #3c5866, 5px 15px 0 0 #3c5866, 0px 16.25px 0 0 #3c5866, -1.25px 16.25px 0 0 #3c5866, 1.25px 16.25px 0 0 #3c5866, 2.5px 16.25px 0 0 #3c5866, 3.75px 16.25px 0 0 #3c5866, 5px 16.25px 0 0 #3c5866, -1.25px 17.5px 0 0 #3c5866, 0px 17.5px 0 0 #3c5866, 3.75px 17.5px 0 0 #3c5866, 5px 17.5px 0 0 #3c5866, -1.25px 18.75px 0 0 #3c5866, 0px 18.75px 0 0 #3c5866, 3.75px 18.75px 0 0 #3c5866, 5px 18.75px 0 0 #3c5866, -1.25px 20px 0 0 #3c5866, 0px 20px 0 0 #3c5866, 3.75px 20px 0 0 #3c5866, 5px 20px 0 0 #3c5866, -1.25px 21.25px 0 0 #3c5866, 0px 21.25px 0 0 #3c5866, 3.75px 21.25px 0 0 #3c5866, 5px 21.25px 0 0 #3c5866, -1.25px 22.5px 0 0 #3c5866, 0px 22.5px 0 0 #3c5866, 3.75px 22.5px 0 0 #3c5866, 5px 22.5px 0 0 #3c5866, -1.25px 23.75px 0 0 #3c5866, 0px 23.75px 0 0 #3c5866, 3.75px 23.75px 0 0 #3c5866, 5px 23.75px 0 0 #3c5866, -1.25px 25px 0 0 #3c5866, 0px 25px 0 0 #3c5866, 3.75px 25px 0 0 #3c5866, 5px 25px 0 0 #3c5866, -1.25px 26.25px 0 0 black, 0px 26.25px 0 0 black, 3.75px 26.25px 0 0 black, 5px 26.25px 0 0 black;
+}
+
 /*@keyframes fly {
   0% {
     left: -5%;
@@ -694,15 +710,15 @@ body {
 }
 
 @-webkit-keyframes fromRight {
-    0%   { left: 105%; }
-    100% { left: 85%; }
+    0%   { left: 75%; }
+    100% { left: 90%; }
 }
 
-.person {
+.woodsMan {
  -webkit-animation-name: fromRight;
  -webkit-animation-duration: 15s;
- -webkit-animation-iteration-count: 1;         
- -webkit-animation-direction: normal;   /*   normal, alternate  */
+ -webkit-animation-iteration-count: 2;         
+ -webkit-animation-direction: alternate;   /*   normal, alternate  */
  -webkit-animation-timing-function: ease-out, linear;   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
  /*-webkit-animation-fill-mode: forwards;*/   /* forwards, backwards, both, none  */
  /*-webkit-animation-delay: 3s;*/
