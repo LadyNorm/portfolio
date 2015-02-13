@@ -352,7 +352,7 @@ body {
   background: #172e30;
 }
 
-.tower:after {
+/*.tower:after {
   content: '';
   top: 50px;
   left: 0;
@@ -360,7 +360,42 @@ body {
   height: 30px;
   margin: -150px 0 0 4px;
   background: #172e30;
+}*/
+
+.radio {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  width: 20px;
+  height: 5px;
+  margin-left: -10px;
+  background: #172e30;
 }
+
+.radio:before {
+  content: '';
+  display: block;
+  position: relative;
+  top: -36px;
+  left: 9px;
+  width: 2px;
+  height: 36px;
+  background: #172e30;
+}
+
+.radio:after {
+  content: '';
+  display: block;
+  position: relative;
+  top: -70px;
+  left: 9px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  box-shadow: 0 2.5px 0 red, 0 2.5px 2.5px red, 0 2.5px 5px red, 0 12.5px 0 red, 0 12.5px 2.5px red, 0 12.5px 5px red, 0 22.5px 0 red, 0 22.5px 2.5px red, 0 22.5px 2.5px red;
+  animation: 2s radio infinite;
+}
+
 
 .house {
   position: absolute;
@@ -523,3 +558,17 @@ body {
  /*-webkit-animation-delay: 3s;*/
 }
 
+@-webkit-keyframes radio {
+    50%   { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.radio:after {
+ -webkit-animation-name: radio;
+ -webkit-animation-duration: 2s;
+ -webkit-animation-iteration-count: infinite;         
+ /*-webkit-animation-direction: normal;*/   /*   normal, alternate  */
+/* -webkit-animation-timing-function: ease-in, linear;*/   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
+ -webkit-animation-fill-mode: forwards;   /* forwards, backwards, both, none  */
+ /*-webkit-animation-delay: 3s;*/
+}
