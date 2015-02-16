@@ -132,7 +132,7 @@ footer a:hover {
 .holder {
   display: flex;
   flex-direction: column;
-  /*overflow: hidden;*/
+  overflow: hidden;
   width: 1280px;
   height: 400px;
   position: relative;
