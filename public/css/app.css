@@ -586,7 +586,7 @@ body {
   transform: rotate(45deg);
 }*/
 
-.bird{
+.bat{
   background:black;
   border-radius: 50% 50% 20% 20%;
   color:white;
@@ -601,14 +601,14 @@ body {
   z-index:999;
 }
 
-.bird:after,
-.bird:before{
+.bat:after,
+.bat:before{
   content:"";
   position:absolute;
   top:50%; left:50%;
 }
 
-.bird:after{
+.bat:after{
   border-radius: 100% 100% 0 0;
   box-shadow: inset 0px 2.5px 0 black;
   width:25px; height:25px;
@@ -616,7 +616,7 @@ body {
   transform-origin: 100% 0%;
 }
 
-.bird:before{
+.bat:before{
   background:#FFC37F;
   border-radius: 100% 0% 20% 0%;
   margin-top:-1.75px; margin-left:-2px;
@@ -728,7 +728,7 @@ body {
     50% { transform: rotateX(-1440deg);}
 }
 
-.bird:after {
+.bat:after {
  -webkit-animation-name: alas;
  -webkit-animation-duration: 3s;
  -webkit-animation-iteration-count: infinite;         
@@ -739,9 +739,9 @@ body {
 }
 
 @-webkit-keyframes move {
-    0%   { left: 45%; }
-    2%   { top: 60%; }
-    7%   { top: 62%; }
+    0%    { left: 45%; }
+    2%    { top: 60%; }
+    7%    { top: 62%; }
     15%   { top: 64%; }
     20%   { top: 66%; }
     24%   { top: 63%; }
@@ -765,7 +765,7 @@ body {
     100% { left: -5%; }
 }
 
-.bird {
+.bat {
  -webkit-animation-name: move;
  -webkit-animation-duration: 25s;
  -webkit-animation-iteration-count: infinite;         
