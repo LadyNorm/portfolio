@@ -116,8 +116,6 @@ footer a:hover {
 
 
 * {
-  /*margin: 0;
-  padding: 0;*/
   box-sizing: border-box;
 }
 
@@ -126,17 +124,6 @@ footer a:hover {
   display: block;
   position: relative;
 }
-
-/*html, body {
-  min-width: 700px;
-  height: 100%;
-  overflow: hidden;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}*/
 
 .hero {
   overflow: hidden;
@@ -169,17 +156,6 @@ body {
   background: #0e1d1f;
   top: 0;
 }
-
-/*.sun {
-  position: absolute;
-  left: 50%;
-  bottom: 50px;
-  width: 300px;
-  height: 300px;
-  margin: 0 0 0 -20px;
-  border-radius: 50%;
-  background: radial-gradient(ellipse at top right, #ffffe0 0%, #ffff94 100%);
-}*/
 
 .moon {
   position: absolute;
@@ -354,16 +330,6 @@ body {
   background: #172e30;
 }
 
-/*.tower:after {
-  content: '';
-  top: 50px;
-  left: 0;
-  width: 4px;
-  height: 30px;
-  margin: -150px 0 0 4px;
-  background: #172e30;
-}*/
-
 .radio {
   position: absolute;
   top: -14px;
@@ -504,88 +470,6 @@ body {
   background: #1b373a;
 }
 
-/*.person {
-  position: absolute;
-  content: '';
-  top: 343px;
-  left: 95%;
-}
-
-.body {
-  content: '';
-  display: block;
-  position: relative;
-  top: -13px;
-  left: 1px;
-  width: 3px;
-  height: 16px;
-  background: #0e1d1f;
-}
-
-.head {
-  content: '';
-  display: block;
-  position: relative;
-  top: -12px;
-  left: -3px;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #0e1d1f;
-}
-
-.arm-r {
-  position: absolute;
-  content: '';
-  display: block;
-  top: 0px;
-  left: -5px;
-  width: 3px;
-  height: 9px;
-  border-radius: 5px 5px 5px 5px;
-  background: #0e1d1f;
-  transform: rotate(90deg);
-}
-
-.arm-l {
-  position: relative;
-  content: '';
-  display: block;
-  top: -27px;
-  left: 6px;
-  width: 3px;
-  height: 9px;
-  border-radius: 5px 5px 5px 5px;
-  background: #0e1d1f;
-  transform: rotate(90deg);
-}
-
-.leg-r {
-  position: relative;
-  content: '';
-  display: block;
-  top: -39px;
-  left: 6px;
-  width: 3px;
-  height: 13px;
-  border-radius: 5px 5px 5px 5px;
-  background: #0e1d1f;
-  transform: rotate(-45deg);
-}
-
-.leg-l {
-  position: relative;
-  content: '';
-  display: block;
-  top: -26px;
-  left: -3px;
-  width: 3px;
-  height: 13px;
-  border-radius: 5px 5px 5px 5px;
-  background: #0e1d1f;
-  transform: rotate(45deg);
-}*/
-
 .bat{
   background:black;
   border-radius: 50% 50% 20% 20%;
@@ -637,16 +521,6 @@ body {
   width: 5px;
   box-shadow: 5px 0 0 0 #6c2807, 10px 0 0 0 #6c2807, 15px 0 0 0 #6c2807, 0 5px 0 0 #6c2807, 5px 5px 0 0 #ffe8dc, 10px 5px 0 0 #ffe8dc, 15px 5px 0 0 #6c2807, 0px 10px 0 0 black, 5px 10px 0 0 #ffe8dc, 10px 10px 0 0 #ffe8dc, 15px 10px 0 0 black, 0px 15px 0 0 black, 5px 15px 0 0 black, 10px 15px 0 0 black, 15px 15px 0 0 black, -10px 20px 0 0 #b21015, -5px 20px 0 0 #b21015, 0px 20px 0 0 black, 5px 20px 0 0 black, 10px 20px 0 0 black, 15px 20px 0 0 black, 20px 20px 0 0 #b21015, 25px 20px 0 0 #b21015, -10px 25px 0 0 #b21015, -5px 25px 0 0 #b21015, 0px 25px 0 0 #b21015, 5px 25px 0 0 #b21015, 10px 25px 0 0 #b21015, 15px 25px 0 0 #b21015, 20px 25px 0 0 #b21015, 25px 25px 0 0 #b21015, -10px 30px 0 0 #ffe8dc, -5px 30px 0 0 #ffe8dc, 0px 30px 0 0 #b21015, 5px 30px 0 0 #b21015, 10px 30px 0 0 #b21015, 15px 30px 0 0 #b21015, 20px 30px 0 0 #ffe8dc, 25px 30px 0 0 #ffe8dc, 25px 30px 0 0 #b21015, -10px 35px 0 0 #ffe8dc, -5px 35px 0 0 #ffe8dc, 0px 35px 0 0 #b21015, 5px 35px 0 0 #b21015, 10px 35px 0 0 #b21015, 15px 35px 0 0 #b21015, 20px 35px 0 0 #ffe8dc, 25px 35px 0 0 #ffe8dc, 25px 35px 0 0 #b21015, -10px 40px 0 0 #ffe8dc, -5px 40px 0 0 #ffe8dc, 0px 40px 0 0 #b21015, 5px 40px 0 0 #b21015, 10px 40px 0 0 #b21015, 15px 40px 0 0 #b21015, 20px 40px 0 0 #ffe8dc, 25px 40px 0 0 #ffe8dc, -10px 45px 0 0 #ffe8dc, -5px 45px 0 0 #ffe8dc, 0px 45px 0 0 #b21015, 5px 45px 0 0 #b21015, 10px 45px 0 0 #b21015, 15px 45px 0 0 #b21015, 20px 45px 0 0 #ffe8dc, 25px 45px 0 0 #ffe8dc, -10px 50px 0 0 #ffe8dc, -5px 50px 0 0 #ffe8dc, 0px 50px 0 0 #b21015, 5px 50px 0 0 #b21015, 10px 50px 0 0 #b21015, 15px 50px 0 0 #b21015, 20px 50px 0 0 #ffe8dc, 25px 50px 0 0 #ffe8dc, -5px 55px 0 0 #3c5866, 0px 55px 0 0 #3c5866, 5px 55px 0 0 #3c5866, 10px 55px 0 0 #3c5866, 15px 55px 0 0 #3c5866, 20px 55px 0 0 #3c5866, -5px 60px 0 0 #3c5866, 0px 60px 0 0 #3c5866, 5px 60px 0 0 #3c5866, 10px 60px 0 0 #3c5866, 15px 60px 0 0 #3c5866, 20px 60px 0 0 #3c5866, 0px 65px 0 0 #3c5866, -5px 65px 0 0 #3c5866, 5px 65px 0 0 #3c5866, 10px 65px 0 0 #3c5866, 15px 65px 0 0 #3c5866, 20px 65px 0 0 #3c5866, -5px 70px 0 0 #3c5866, 0px 70px 0 0 #3c5866, 15px 70px 0 0 #3c5866, 20px 70px 0 0 #3c5866, -5px 75px 0 0 #3c5866, 0px 75px 0 0 #3c5866, 15px 75px 0 0 #3c5866, 20px 75px 0 0 #3c5866, -5px 80px 0 0 #3c5866, 0px 80px 0 0 #3c5866, 15px 80px 0 0 #3c5866, 20px 80px 0 0 #3c5866, -5px 85px 0 0 #3c5866, 0px 85px 0 0 #3c5866, 15px 85px 0 0 #3c5866, 20px 85px 0 0 #3c5866, -5px 90px 0 0 #3c5866, 0px 90px 0 0 #3c5866, 15px 90px 0 0 #3c5866, 20px 90px 0 0 #3c5866, -5px 95px 0 0 #3c5866, 0px 95px 0 0 #3c5866, 15px 95px 0 0 #3c5866, 20px 95px 0 0 #3c5866, -5px 100px 0 0 #3c5866, 0px 100px 0 0 #3c5866, 15px 100px 0 0 #3c5866, 20px 100px 0 0 #3c5866, -5px 105px 0 0 black, 0px 105px 0 0 black, 15px 105px 0 0 black, 20px 105px 0 0 black;
 }
-
-/*@keyframes fly {
-  0% {
-    left: -5%;
-  }
-
-  100% {
-    left: 105%;
-  }
-}*/
 
 @-webkit-keyframes fromLeft {
     0%   { left: -5%; }
