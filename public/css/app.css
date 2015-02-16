@@ -598,12 +598,12 @@ footer a:hover {
  -webkit-animation-delay: 30s;
 }
 
-@-webkit-keyframes alas {
+@-webkit-keyframes flap {
     50% { transform: rotateX(-1440deg);}
 }
 
 .bat:after {
- -webkit-animation-name: alas;
+ -webkit-animation-name: flap;
  -webkit-animation-duration: 3s;
  -webkit-animation-iteration-count: infinite;         
  -webkit-animation-direction: normal;   /*   normal, alternate  */
