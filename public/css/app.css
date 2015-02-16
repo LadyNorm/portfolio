@@ -121,7 +121,7 @@ footer a:hover {
   box-sizing: border-box;
 }
 
-.sky:before, .sky:after, .earth:before, .earth:after, .sun:before, .sun:after, .hills:before, .hills:after, .house:before, .house:after, .tower:before, .tower:after, .tree:before, .tree.after, .tree div:before, .tree div:after, .house div:nth-child(1):before, .house div:nth-child(1):after, .house div:nth-child(2):before, .house div:nth-child(2):after  {
+.sky:before, .sky:after, .earth:before, .earth:after, .moon:before, .moon:after, .hills:before, .hills:after, .house:before, .house:after, .tower:before, .tower:after, .tree:before, .tree.after, .tree div:before, .tree div:after, .house div:nth-child(1):before, .house div:nth-child(1):after, .house div:nth-child(2):before, .house div:nth-child(2):after  {
   content: '';
   display: block;
   position: relative;
@@ -181,7 +181,7 @@ body {
   background: radial-gradient(ellipse at top right, #ffffe0 0%, #ffff94 100%);
 }*/
 
-.sun {
+.moon {
   position: absolute;
   left: 50%;
   bottom: 150px;
@@ -193,7 +193,7 @@ body {
   background: radial-gradient(ellipse at top right, #ffffee 0%, #ffffa2 100%);
 }
 
-.sun:after {
+.moon:after {
   top: 100px;
   left: 100px;
   width: 50px;
@@ -669,7 +669,7 @@ body {
     100% { top: -5%; }
 }
 
-.sun {
+.moon {
  -webkit-animation-name: fromTop;
  -webkit-animation-duration: 4s;
  -webkit-animation-iteration-count: infinite;         
