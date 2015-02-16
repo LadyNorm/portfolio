@@ -767,7 +767,7 @@ body {
 
 .bird {
  -webkit-animation-name: move;
- -webkit-animation-duration: 20s;
+ -webkit-animation-duration: 25s;
  -webkit-animation-iteration-count: infinite;         
  -webkit-animation-direction: alternate;   /*   normal, alternate  */
  -webkit-animation-timing-function: linear;   /*  ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) (e.g. cubic-bezier(0.5, 0.2, 0.3, 1.0))  */
