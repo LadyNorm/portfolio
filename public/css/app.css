@@ -31,10 +31,6 @@ body {
     float: right;
   }
 
-  .namelogo {
-    padding-bottom: 20px;
-  }
-
   .namelogo h1 {
     font-size: 16px;
     text-align: left;
@@ -46,11 +42,12 @@ body {
 }
 
 .navigation-links {
-  margin-top: 25px;
+  margin-top: 14px;
 }
 
 .namelogo {
-    padding: 20px 10px 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .namelogo h1 {
@@ -67,6 +64,12 @@ body {
 
   .intro-text {
     padding-top: 18%;
+  }
+}
+
+@media (max-width: 641px) {
+  .logo-and-links {
+    text-align: center;
   }
 }
 
