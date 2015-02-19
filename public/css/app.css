@@ -114,6 +114,10 @@ footer a:hover {
     background-color: transparent;
 }
 
+.large-4 {
+  text-align: center;
+}
+
 
 * {
   box-sizing: border-box;
@@ -204,7 +208,7 @@ footer a:hover {
 
 .hills div:nth-child(4) {
   left: 250px;
-  height: 550px;
+  height: 550 px;
 }
 
 .hills div:nth-child(5),
