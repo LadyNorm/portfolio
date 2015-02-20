@@ -175,7 +175,7 @@
       this.bg.autoScroll(-this.speed,0);
 
       var style = { font: "48px Arial", fill: "#DE5F3D", align: "center" };
-      this.title = this.game.add.text(250,170,"Space Shooter",style);
+      this.title = this.game.add.text(250,170,"Space Shot",style);
 
       var style2 = { font: "28px Arial", fill: "#DE5F3D", align: "center" };
       this.help = this.game.add.text(250,230,"Press `Enter` Key to start",style2);
